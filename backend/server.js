@@ -15,7 +15,19 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+// app.use(cors())
+
+///
+const cors=require('cors')
+app.use(
+  cors({
+    origin: [
+      "https://dprescripto.netlify.app",
+      "https://hospitalprescripto.netlify.app",
+    ],
+    credentials: true,
+  })
+);
 
 // api endpoints
 app.use("/api/user", userRouter)
