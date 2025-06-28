@@ -1,5 +1,5 @@
 import express from "express"
-// import cors from 'cors'
+import cors from 'cors'
 import 'dotenv/config'
 import connectDB from "./config/mongodb.js"
 import connectCloudinary from "./config/cloudinary.js"
@@ -18,7 +18,6 @@ app.use(express.json())
 // app.use(cors())
 
 ///
-const cors=require('cors')
 app.use(
   cors({
     origin: [
