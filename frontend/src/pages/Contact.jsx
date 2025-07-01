@@ -13,8 +13,11 @@ const Contact = () => {
         <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className=' font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className=' text-gray-500'>54709 Willms Station <br /> Suite 350, Washington, USA</p>
-          <p className=' text-gray-500'>Tel: 8081679626 <br /> Email: akashpro8585@gmail.com</p>
+          <p className=' text-gray-500'>B2/50A, Bhadaini, <br />Tulsi Ghat, Assi Road(Heritage varanasi)</p>
+          <p className=' text-gray-500'>Tel: 9621893109 <br /> Email: syadav02818@gmail.com
+          Tel: 8081679626 <br /> Email: akashpro8585@gmail.com
+          Tel: 9956571969 <br /> Email: prashantchaubey051@gmail.com
+          </p>
           <p className=' font-semibold text-lg text-gray-600'>CAREERS AT PRESCRIPTO</p>
           <p className=' text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
